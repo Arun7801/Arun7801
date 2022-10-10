@@ -1,0 +1,433 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.headd{
+    
+    height: 100vh;
+    background: linear-gradient(to right,rgba(0,0,0,0.9),rgba(0, 0, 0, 0.6)),
+    url("SAVE_20210410_235618.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:700px;
+}
+.header{
+    
+    box-shadow:1px 2px 5px rgb(5, 2, 2);
+    box-shadow: inset;
+    box-shadow:1px 2px 5px rgb(27, 4, 4);
+    background:linear-gradient(to left,rgba(1, 22, 27, 0.623),rgba(3, 183, 238, 0.452))
+}
+
+.header1{
+    display: flex;
+}
+.header1 li:nth-child(1){
+    flex: 1;
+}
+.header1 li:nth-child(2){
+
+    flex: 1;
+}
+.header1 li:nth-child(3){
+    flex: 1;
+}
+.header1 li:nth-child(4){
+    flex: 1;
+}
+
+li{
+    text-align: center;
+    padding: 20px 10px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 1px 2px 5px black;
+    letter-spacing: 5px;
+}
+
+
+li:hover{
+    border-radius: 50px 0px;
+    box-shadow: 1px 2px black;
+    box-shadow: inset;
+    background:linear-gradient(to right,rgba(255, 87, 87, 0.493),rgba(211, 19, 179, 0.384))
+}
+
+a:hover{
+
+    text-shadow: 1px 2px black;
+    color: darkturquoise;
+}
+
+.inter{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 5px rgb(8, 8, 8);
+    letter-spacing: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-items: stretch;
+    align-items: stretch;
+    
+}
+
+
+.inter2{
+    grid-column: 3;
+    grid-row: 1/3;
+}
+.inter1 h1{
+    
+    font-size: 200px;
+}
+
+.inter2{
+    
+    margin: 20px;
+
+}
+
+.inter3{
+    
+    font-size: 30px;
+    grid-column: span;
+    grid-row: 2;
+
+}
+
+.inter3 h1{
+    font-size: 100px;
+    padding: 10px 20px;
+}
+
+.inter2 p{
+    color: rgb(255, 255, 255);
+    text-shadow:1px 1px 2px rgba(0, 198, 248, 0.623);
+    grid-column: 1/3;
+    grid-row: 1/3;
+    max-height: 450px;
+    padding: 10px;
+    box-shadow:1px 1px 2px 3px black inset;
+    overflow: scroll;
+    overflow-wrap: break-word;
+}
+
+.coll{
+   
+    
+    background:linear-gradient(to right,rgba(1, 69, 255, 0.384),rgba(1, 229, 245, 0.295)),rgba(255, 1, 149, 0.747);
+    text-shadow: 1px 1px black;
+
+    color: darkorange;
+}
+
+.coll1{
+    box-shadow:1px 2px 5px rgb(5, 2, 2);
+    box-shadow: inset;
+    box-shadow:1px 2px 5px rgb(27, 4, 4);
+    background:linear-gradient(to left,rgba(1, 22, 27, 0.623),rgba(3, 183, 238, 0.452));
+    text-align: center;
+}
+.coll2{
+    box-shadow:1px 2px 5px rgb(5, 2, 2);
+    box-shadow: inset;
+    box-shadow:1px 2px 5px rgb(27, 4, 4);
+    background:linear-gradient(to left,rgba(1, 22, 27, 0.623),rgba(3, 183, 238, 0.452));
+    display: grid;
+    grid-template-columns: 33%  33% 33%;
+}
+
+
+.footer{
+    box-shadow: 1px 2px 5px black inset;
+    background:linear-gradient(to right,rgba(54, 54, 54, 1),rgba(20, 16, 20,1));
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px;
+    
+}
+
+.footer1{
+    box-shadow:1px 1px 2px 3px black inset;
+    text-align: center;
+    flex:50%;
+}
+
+.footer1 h1{
+    padding:10px;
+    text-align: center;
+    color: darkcyan;
+}
+
+.footer2 h1{
+    padding:10px;
+    text-align: center;
+    color: darkcyan;
+}
+
+.footer2{
+    box-shadow:1px 1px 2px 3px black inset;
+    text-align: center;
+    flex:50%;
+}
+.footer3{
+    text-align: center;
+    flex: 3;
+    text-align: center;
+}
+
+.footer3 li a{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.finall{
+    width: 200px;
+   
+    height: 240px;
+    animation: slider 10s infinite linear;
+}
+
+.finall1{
+    width: 200px;
+   
+    height: 240px;
+    animation: slider 10s infinite linear;
+}
+
+@keyframes slider{
+    
+    0%{ background-image: url("IMG_20190721_101051-01.jpeg");
+    background-size: cover;}
+    15%{ background-image: url("IMG_20190726_175552-02.jpeg");
+        background-size: cover;}
+    30%{ background-image: url("IMG_20190911_164248-01.jpeg");
+        background-size: cover;}
+    45%{ background-image: url("IMG_20190911_171425-01.jpeg");
+        background-size: cover;}
+    60%{ background-image: url("IMG_20190930_115553-01.jpeg");
+        background-size: cover;}
+    75%{ background-image: url("IMG_20191001_121507-01-01.jpeg");
+        background-size: cover;}
+    90%{ background-image: url("IMG_20191117_093509.jpg");
+        background-size: cover;}
+    100%{ background-image: url("SAVE_20210410_235618.jpg");
+        background-size: cover;}
+
+    
+}
+
+@keyframes slider{
+    
+    0%{ background-image: url("IMG_20190721_101051-01.jpeg");
+    background-size: cover;}
+    15%{ background-image: url("IMG_20190726_175552-02.jpeg");
+        background-size: cover;}
+    30%{ background-image: url("IMG_20190911_164248-01.jpeg");
+        background-size: cover;}
+    45%{ background-image: url("IMG_20190911_171425-01.jpeg");
+        background-size: cover;}
+    60%{ background-image: url("IMG_20190930_115553-01.jpeg");
+        background-size: cover;}
+    75%{ background-image: url("IMG_20191001_121507-01-01.jpeg");
+        background-size: cover;}
+    90%{ background-image: url("IMG_20191117_093509.jpg");
+        background-size: cover;}
+    100%{ background-image: url("SAVE_20210410_235618.jpg");
+        background-size: cover;}
+
+    
+}
+
+.loginbg{
+   
+   
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.644)),
+    url("vek-labs-e8ofKlNHdsg-unsplash.jpg");
+    background-size: cover;
+    
+   
+}
+.lgin{
+    padding-top: 100px;
+}
+.login1 input{
+   text-shadow: 1px 2px 1px white;
+    border: 1px solid rgb(255, 255, 255) ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: aliceblue;
+    letter-spacing: 5px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    background-color: rgba(225, 0, 255, 0);
+}
+
+.login1 input:hover{
+    border-bottom:1px solid aqua;
+
+}
+.login2{
+    grid-column: 1;
+    grid-row: span 1;
+    
+}
+
+.loginback{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px 0px;
+    text-align: center;
+    grid-column: 1;
+     
+    grid-row: span 2;
+    display: flex;
+}
+
+.loginback a{
+    border: 1px solid palevioletred;
+  text-transform: uppercase;
+}
+
+
+
+.loginback a:nth-child(1){
+    width: 150px;
+    height: 30px;
+    text-align: center;
+   
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+
+.loginback a:nth-child(2){
+    
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+.loginn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+
+}
+.login1{
+    align-self: center;
+}
+
+.register1{
+    height:1000px;
+    color: aliceblue;
+    background:linear-gradient(to right,rgb(71, 70, 70),rgb(38, 44, 46));
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.regsex{
+    margin-top:10px;
+    text-align:start;
+    padding-left: 20px;
+}
+
+.regsex span{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.regdeg{
+    margin-top:10px;
+    text-align:start;
+    padding-left: 20px;
+}
+.regdeg span{
+    
+    font-size: 20px;
+    padding: 20px;
+
+}
+.register2{
+    margin-top: 50px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.507);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: -2px  3px 3px black inset;
+    min-width: 600px;
+    min-height:800px ;
+}
+
+.re2{
+    color: antiquewhite;
+}
+.reg2 input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(203, 0, 230, 0);
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    margin-top:70px;
+    min-width: 500px;
+    min-height:50px ;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  
+    
+}
+
+    
+
+.regback{
+    border: 1px solid black;
+    box-shadow: 2px  -3px 3px black inset;
+    padding: 10px 0px;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+   
+}
+.regback input{
+    
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 2px 5px black;
+    letter-spacing: 5px;
+    background: none;
+    border: none;
+}
+.regback input:hover{
+    text-shadow: 1px 2px black;
+    color: darkturquoise;
+}
+
+.regback a{
+    color: rgb(255, 0, 0);
+}
+
+.regback a:hover{
+    text-shadow: 1px 2px black;
+    color: darkturquoise;
+    
+    border-radius: 10px 20px;
+}
